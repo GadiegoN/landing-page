@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    font-size: 100%;
+    background: linear-gradient(135deg, #5e4f9d 30%, #4eb7b1 66%);
+    color: #FFF2E7;
+}
+
+header {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+header .menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    color: #FFF2E7;
+    font-weight: 400;
+}
+
+.menu-item:hover {
+    color: #CCC2E7;
+}
+
+main {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.section-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.section-main div h1 {
+    font-size: 64px;
+}
+
+.section-main div h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main-button {
+    border-radius: 20px;
+    width: 180px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 18px;
+    color: #2F2325;
+    font-weight: 700;
+}
+
+.main-button:hover {
+    border: 1px solid #FFF2E7;
+    background: #5E4F9D;
+    color: #FFF2E7;
+}
+
+.section-main img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.section-secundary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.section-secundary h3 {
+    border-top: 1px solid #FFF2E7;
+    padding: 48px 48px 16px 48px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.section-secundary i {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.section-secundary div {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.grupo-contato p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#social a {
+    color: #FFF2E7;
+}
+
+#social img {
+    height: 72px;
+    border-radius: 50%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    background: linear-gradient(90deg, #5e4f9d 30%, #4eb7b1 66%);;
+}
