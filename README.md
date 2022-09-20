@@ -4,9 +4,9 @@
 
 > LandingPage
 
-Pagina criada para mostrar minhas experiencias e rede sociais queutilizo.
+Pagina criada para mostrar minhas experiencias e rede sociais que utilizo.
 
-[Clique aqui para acessar](gadiegon.github.io/landing-page/)
+[Clique aqui para acessar](https://gadiegon.github.io/landing-page/)
 
 ## Tecnologias
 
