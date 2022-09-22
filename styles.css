@@ -124,11 +124,11 @@ main {
     gap: 12px;
 }
 
-#social a {
+#contato a {
     color: #FFF2E7;
 }
 
-#social img {
+#contato img {
     height: 84px;
     border-radius: 50%;
 }
@@ -143,6 +143,12 @@ footer {
     align-items: center;
     height: 32px;
     background: linear-gradient(90deg, #5e4f9d 30%, #4eb7b1 66%);;
+}
+
+.skills div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -229,13 +235,19 @@ footer {
         gap: 12px;
     }
 
-    #social a {
+    #contato a {
         color: #FFF2E7;
     }
 
-    #social img {
+    #contato img {
         height: 72px;
         border-radius: 50%;
+    }
+
+    .skills div {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
     }
 
     footer {
