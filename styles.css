@@ -5,18 +5,21 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: #000;
 }
 
 body {
     font-family: 'Prompt', sans-serif;
     font-size: 100%;
-    background: linear-gradient(135deg, #5e4f9d 30%, #4eb7b1 66%);
+    background: linear-gradient(135deg, #F7BFB4 30%, #C7EFCF 66%);
     color: #FFF2E7;
 }
 
 header {
-    padding: 24px;
-
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(135deg, #F7BFB4 30%, #C7EFCF 66%);
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,12 +37,11 @@ header .menu {
 }
 
 .menu-item {
-    color: #FFF2E7;
     font-weight: 400;
 }
 
 .menu-item:hover {
-    color: #CCC2E7;
+    color: #888888;
 }
 
 main {
@@ -47,10 +49,18 @@ main {
     margin-bottom: 72px;
 }
 
+section {
+    height: 100vh;
+}
+
 .section-main {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .section-main div {
@@ -77,19 +87,20 @@ main {
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     font-size: 18px;
-    color: #2F2325;
+    color: #F7BFB4;
     font-weight: 700;
+    background: #FFF;
 }
 
 .main-button:hover {
-    border: 1px solid #FFF2E7;
-    background: #5E4F9D;
-    color: #FFF2E7;
+    border: 1px solid #F7BFB4;
+    background: #C7EFCF;
+    color: #000000;
 }
 
 .section-main img {
-    height: 250px;
-    border-radius: 50%;
+    height: 300px;
+    border-radius: 16px;
 }
 
 .section-secundary {
@@ -104,11 +115,10 @@ main {
     border-top: 1px solid #FFF2E7;
     padding: 48px 48px 16px 48px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 
 .section-secundary i {
-    color: #FFF;
     font-size: 30px;
 }
 
@@ -122,33 +132,48 @@ main {
     display: flex;
     align-items: center;
     gap: 12px;
+    font-size: 1rem;
+}
+
+.grupo-contato i {
 }
 
 #contato a {
-    color: #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contato img {
     height: 84px;
-    border-radius: 50%;
+    border-radius: 16px;
 }
 
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 32px;
-    background: linear-gradient(90deg, #5e4f9d 30%, #4eb7b1 66%);;
+    background: linear-gradient(135deg, #F7BFB4 30%, #C7EFCF 66%);
 }
 
 .skills div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 0;
+    font-size: 1.2rem;
+}
+
+.skills img {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
 }
 
 @media screen and (max-width: 600px) {
